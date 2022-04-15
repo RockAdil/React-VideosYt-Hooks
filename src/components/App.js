@@ -6,7 +6,7 @@ import onVideos from '../hooks/useVideos';
 
 const App = () => {
   const [selectedVideo, setSelectedVideos] = useState(null);
-  const [videos, search] = onVideos('Pretty Afra');
+  const [videos, search] = onVideos('Madan Gouri');
 
   useEffect(() => {
     setSelectedVideos(videos[0]);
